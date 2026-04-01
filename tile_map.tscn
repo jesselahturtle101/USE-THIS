@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3jn6xjlp34w"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ykcdr"]
+load_path = "res://.godot/imported/jeep_1.png-c296239d3dfd11a89963fe3c0d55772b.ctex"
+
+[node name="TileMap" type="TileMap"]
+format = 2
+
+[node name="Jeep2" type="Sprite2D" parent="."]
+position = Vector2(616, 304)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep3" type="Sprite2D" parent="."]
+position = Vector2(626, 304)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep4" type="Sprite2D" parent="."]
+position = Vector2(606, 319)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep5" type="Sprite2D" parent="."]
+position = Vector2(617, 318)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep1" type="Sprite2D" parent="."]
+position = Vector2(606, 304)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep6" type="Sprite2D" parent="."]
+position = Vector2(626, 318)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep7" type="Sprite2D" parent="."]
+position = Vector2(606, 330)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep8" type="Sprite2D" parent="."]
+position = Vector2(616, 330)
+texture = SubResource("CompressedTexture2D_ykcdr")
+
+[node name="Jeep9" type="Sprite2D" parent="."]
+position = Vector2(626, 330)
+texture = SubResource("CompressedTexture2D_ykcdr")
